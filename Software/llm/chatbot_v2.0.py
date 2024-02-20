@@ -113,7 +113,7 @@ class SeeeBot:
 
 if __name__ == '__main__':
     chatbot = SeeeBot(
-        openai_api='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',
+        openai_api='',
         # riva_server="192.168.49.103:50051",
     )
 

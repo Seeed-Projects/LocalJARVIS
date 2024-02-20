@@ -94,7 +94,7 @@ class SeeeBot:
 
 if __name__ == '__main__':
     chatbot = SeeeBot(
-        # openai_api='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',
+        # openai_api='',
         openai_api=None,
         riva_server="192.168.49.103:50051",
         asr_input_device_id=7,

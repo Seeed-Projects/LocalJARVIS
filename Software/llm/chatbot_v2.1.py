@@ -178,7 +178,7 @@ class SeeeBot:
 if __name__ == '__main__':
 
     chatbot = SeeeBot(
-        openai_api='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',
+        openai_api='',
         # text_inference_server='http://192.168.49.104:8899/generate',
         riva_server="192.168.49.104:50051",
     )
