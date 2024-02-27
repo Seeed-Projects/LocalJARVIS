@@ -1,12 +1,12 @@
-# Introduction of LocalJAVIS Project
-
+# LocalJAVIS Project (🚧WIP🚧)
 This project takes off with the Application Engineers at Seeed Studio embarking on a journey to leverage the advanced capabilities of the Jetson Orin AGX. Their mission is to deploy it for the operation of a Local Large Language Model (LLM) embedded with a Langchain agent. The objective is to evolve our office environment into a cutting-edge, GenAI-infused AIoT workspace, further enhanced by the integration of automation with the Home Assistant project, complete with an AI-powered assistant. This endeavor seeks not only to elevate the workplace atmosphere but also to decrease energy consumption, aligning with Sustainable Development Goals (SDG).
 
 This comprehensive project is divided into several crucial segments, each indispensable for the effective real-world deployment of this groundbreaking upgrade.
 
 Here is the flowchart of the whole system:
 
-![Flow Diagram](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png|width=500)
+<img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="500">
+
 
 1. Voice Input: Users engage with the system by initiating conversations via ReSpeaker.
 2. Voice Processing: The ReSpeaker sends these commands to NVIDIA® Riva software component that recognizes speech (ASR - Automatic Speech Recognition), NVIDIA® Riva is the speech multilingual speech and translation AI software development kit developed by Nvidia, this Nvidia Riva service is running locally on the Nvidia Jetson devices, in this case we are uing a powerfull Orin AGX . After recognizing the speech and Riva turns it into input prompts for further processing.
@@ -33,7 +33,7 @@ The instruction on how to setup could found [here](https://github.com/Seeed-Proj
 
 ## Dashboard
 
-![Magic Mirror Interface](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png|width=300)
+<img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300">
 
 The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
 
