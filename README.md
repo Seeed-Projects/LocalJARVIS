@@ -6,7 +6,7 @@ This comprehensive project is divided into several crucial segments, each indisp
 
 Here is the flowchart of the whole system:
 
-![Flow Diagram](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png)
+![Flow Diagram](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png|width=500)
 
 1. Voice Input: Users engage with the system by initiating conversations via ReSpeaker.
 2. Voice Processing: The ReSpeaker sends these commands to NVIDIA® Riva software component that recognizes speech (ASR - Automatic Speech Recognition), NVIDIA® Riva is the speech multilingual speech and translation AI software development kit developed by Nvidia, this Nvidia Riva service is running locally on the Nvidia Jetson devices, in this case we are uing a powerfull Orin AGX . After recognizing the speech and Riva turns it into input prompts for further processing.
@@ -33,7 +33,7 @@ The instruction on how to setup could found [here](https://github.com/Seeed-Proj
 
 ## Dashboard
 
-![Magic Mirror Interface](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png)
+![Magic Mirror Interface](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png|width=300)
 
 The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
 
@@ -84,6 +84,6 @@ We understand that contributing to an open-source project can be daunting for ne
 
 Thank you for considering contributing. Your support is what drives the success of this project. We can't wait to see what we can build together!
 
-Happy Coding!
+Happy Coding! 🍻🍻🍻
 
 The Seeed Studio Application Engineering Team
