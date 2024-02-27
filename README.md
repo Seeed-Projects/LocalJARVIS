@@ -5,8 +5,10 @@ This comprehensive project is divided into several crucial segments, each indisp
 
 Here is the flowchart of the whole system:
 
-<img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="500">
 
+<center>
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="700">
+</center>
 
 1. Voice Input: Users engage with the system by initiating conversations via ReSpeaker.
 2. Voice Processing: The ReSpeaker sends these commands to NVIDIA® Riva software component that recognizes speech (ASR - Automatic Speech Recognition), NVIDIA® Riva is the speech multilingual speech and translation AI software development kit developed by Nvidia, this Nvidia Riva service is running locally on the Nvidia Jetson devices, in this case we are uing a powerfull Orin AGX . After recognizing the speech and Riva turns it into input prompts for further processing.
@@ -33,7 +35,10 @@ The instruction on how to setup could found [here](https://github.com/Seeed-Proj
 
 ## Dashboard
 
-<img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300">
+<center>
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300" align="center">
+</center>
+
 
 The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
 
