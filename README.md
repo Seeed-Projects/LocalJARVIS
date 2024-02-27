@@ -6,7 +6,7 @@ This comprehensive project is divided into several crucial segments, each indisp
 
 Here is the flowchart of the whole system:
 
-**flowchart here:**
+![Flow Diagram](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png)
 
 1. Voice Input: Users engage with the system by initiating conversations via ReSpeaker.
 2. Voice Processing: The ReSpeaker sends these commands to NVIDIA® Riva software component that recognizes speech (ASR - Automatic Speech Recognition), NVIDIA® Riva is the speech multilingual speech and translation AI software development kit developed by Nvidia, this Nvidia Riva service is running locally on the Nvidia Jetson devices, in this case we are uing a powerfull Orin AGX . After recognizing the speech and Riva turns it into input prompts for further processing.
@@ -24,24 +24,26 @@ Here is the flowchart of the whole system:
 
 ## NVIDIA® Riva
 
-the instruction on how to setup could found [here]()
+The instruction on how to setup could found [here](https://wiki.seeedstudio.com/Local_Voice_Chatbot/)
 
 
 ## LocalLLM
 
-the instruction on how to setup could found [here]()
+The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/llm)
 
 ## Dashboard
 
-the instruction on how to setup could found [here]()
+![Magic Mirror Interface](https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png)
+
+The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
 
 ## Home Assistant
 
-the instruction on how to setup could found [here]()
+the instruction on how to setup could found [here]() --comming soon 🚧
 
 ## Hardware List:
 
-* [Seeed Stduio AGX Orin™](https://www.seeedstudio.com/NVIDIArJetson-AGX-Orintm-64GB-Developer-Kit-p-5641.html)
+* [Seeed Studio AGX Orin™](https://www.seeedstudio.com/NVIDIArJetson-AGX-Orintm-64GB-Developer-Kit-p-5641.html)
 * [15.6inch Monitor](https://www.seeedstudio.com/15-6-Inch-IPS-Portable-Monitor-p-5757.html)
 * [Home Assistant Green](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html)
 * []()
@@ -74,7 +76,7 @@ Propose Your Idea: Have an idea or a feature request? Open a new issue and let's
 Submit a Pull Request: Ready to get your hands dirty? Fork the repository, make your changes, and submit a pull request. Don't forget to follow our contribution guidelines!
 Getting Started
 
-Contribution Guidelines: [link to CONTRIBUTING.md]() -- Comming soon
+Contribution Guidelines: [link to CONTRIBUTING.md]() -- Comming soon 🚧
 
 Need Help?
 
