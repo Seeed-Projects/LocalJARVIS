@@ -7,7 +7,7 @@ Here is the flowchart of the whole system:
 
 
 <center>
-    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="700">
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="700" align="center">
 </center>
 
 1. Voice Input: Users engage with the system by initiating conversations via ReSpeaker.
