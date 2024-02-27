@@ -1,14 +1,14 @@
 # LocalJAVIS Project (🚧WIP🚧)
+
 This project takes off with the Application Engineers at Seeed Studio embarking on a journey to leverage the advanced capabilities of the Jetson Orin AGX. Their mission is to deploy it for the operation of a Local Large Language Model (LLM) embedded with a Langchain agent. The objective is to evolve our office environment into a cutting-edge, GenAI-infused AIoT workspace, further enhanced by the integration of automation with the Home Assistant project, complete with an AI-powered assistant. This endeavor seeks not only to elevate the workplace atmosphere but also to decrease energy consumption, aligning with Sustainable Development Goals (SDG).
 
 This comprehensive project is divided into several crucial segments, each indispensable for the effective real-world deployment of this groundbreaking upgrade.
 
 Here is the flowchart of the whole system:
 
-
-<center>
+<p style="text-align: center;>
     <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="700" align="center">
-</center>
+</p>
 
 1. Voice Input: Users engage with the system by initiating conversations via ReSpeaker.
 2. Voice Processing: The ReSpeaker sends these commands to NVIDIA® Riva software component that recognizes speech (ASR - Automatic Speech Recognition), NVIDIA® Riva is the speech multilingual speech and translation AI software development kit developed by Nvidia, this Nvidia Riva service is running locally on the Nvidia Jetson devices, in this case we are uing a powerfull Orin AGX . After recognizing the speech and Riva turns it into input prompts for further processing.
@@ -24,28 +24,6 @@ Here is the flowchart of the whole system:
 6. Feedback: The system provides feedback of the states of the executes a control action.
 7. Display Information: Display the information via Node-RED, like the current state of home entities (like temperature sensors), time, or weather reports, etc.
 
-## NVIDIA® Riva
-
-The instruction on how to setup could found [here](https://wiki.seeedstudio.com/Local_Voice_Chatbot/)
-
-
-## LocalLLM
-
-The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/llm)
-
-## Dashboard
-
-<center>
-    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300" align="center">
-</center>
-
-
-The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
-
-## Home Assistant
-
-the instruction on how to setup could found [here]() --comming soon 🚧
-
 ## Hardware List:
 
 * [Seeed Studio AGX Orin™](https://www.seeedstudio.com/NVIDIArJetson-AGX-Orintm-64GB-Developer-Kit-p-5641.html)
@@ -54,9 +32,33 @@ the instruction on how to setup could found [here]() --comming soon 🚧
 * []()
 * []()
 
+## Step Guide
+
+### NVIDIA® Riva
+
+The instruction on how to setup could found [here](https://wiki.seeedstudio.com/Local_Voice_Chatbot/)
+
+
+### LocalLLM
+
+The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/llm)
+
+### Dashboard
+
+<center>
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300" align="center">
+</center>
+
+
+The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
+
+### Home Assistant
+
+the instruction on how to setup could found [here]() --comming soon 🚧
+
 ## To-Do
 
--- Comming soon
+-- Comming soon 🚧
 
 ## Contribution 
 
