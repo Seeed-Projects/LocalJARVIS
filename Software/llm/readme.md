@@ -1,4 +1,4 @@
-# reMirror
+# LocalLLM
 This is a very interesting project. We connect large language models with Home Assistant through Langchain, using the 
 large language models to control smart furniture.
 
