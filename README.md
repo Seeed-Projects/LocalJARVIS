@@ -6,7 +6,7 @@ This comprehensive project is divided into several crucial segments, each indisp
 
 Here is the flowchart of the whole system:
 
-<p style="text-align: center;>
+<p style="text-align: center;">
     <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/flowchart.png" width="700" align="center">
 </p>
 
@@ -45,9 +45,9 @@ The instruction on how to setup could found [here](https://github.com/Seeed-Proj
 
 ### Dashboard
 
-<center>
+<p style="text-align: center;">
     <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300" align="center">
-</center>
+</p>
 
 
 The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
