@@ -14,11 +14,11 @@ Here is the flowchart of the whole system:
 2. Voice Processing: The ReSpeaker sends these commands to NVIDIA® Riva software component that recognizes speech (ASR - Automatic Speech Recognition), NVIDIA® Riva is the speech multilingual speech and translation AI software development kit developed by Nvidia, this Nvidia Riva service is running locally on the Nvidia Jetson devices, in this case we are uing a powerfull Orin AGX . After recognizing the speech and Riva turns it into input prompts for further processing.
 3. Local Processing or Cloud Processing: The input can be processed locally using a server called Jetson Orin AGX, or it can be sent to the cloud through OpenAI's API for language understanding and response generation(to be noted: We maintain the use of OpenAI API for its significantly better performance and accuracy over the locally-run llama-2-7b models. Nonetheless, our ultimate aim is to transition to a fully local setup. We are confident in our ability to enhance the performance of local LLMs to achieve this objective.)
 4. Decision Making:
-   * If the input requires controlling tools, it goes to through a LangChain process, which decides if an action needs to be taken (like turning on a light).
-    For example:
-        User: Hi Javis! 
-        Agent: bla bla bla
-        **screenshot of the **
+   * If the input requires controlling tools, it goes to through a LangChain process, which decides if an action needs to be taken (like turning on a light).</br>
+    For example:</br>
+        User: Hi Javis!</br> 
+        Agent: bla bla bla</br>
+    
    * If no action is needed, it proceeds to generate a response directly.
 5. Home Automation Interaction: If an action is needed, LangChain agent communicates with Home Assistant through Home Assistant API to control and  perform the task on smart appliances (These are the devices being controlled by the system, like lights, thermostats, or any other connected smart home devices, the action will for example be turn on off the lights, control the smart thermostat, set a to-do task, or even orders things from the online shop(amazon, aliexpress) and etc
 6. Feedback: The system provides feedback of the states of the executes a control action.
@@ -58,9 +58,15 @@ The instruction on how to setup could found [here](https://github.com/Seeed-Proj
 
 the instruction on how to setup could found [here]() --comming soon 🚧
 
-## To-Do
+## To-Do/Wish list 🚧
 
--- Comming soon 🚧
+### Project To-Do
+- [ ]FIX Project README under construction part
+- [ ]Collect Ideas
+
+### Wish List
+
+-- [ ]Implement RAG 
 
 ## Contribution 
 
