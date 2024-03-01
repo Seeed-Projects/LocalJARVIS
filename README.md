@@ -1,6 +1,6 @@
-# LocalJAVIS Project (🚧WIP🚧)
+# LocalJARVIS Project (🚧WIP🚧)
 
-This project takes off with the Application Engineers at Seeed Studio embarking on a journey to leverage the advanced capabilities of the Jetson Orin AGX. Their mission is to deploy it for the operation of a Local Large Language Model (LLM) embedded with a Langchain agent. The objective is to evolve our office environment into a cutting-edge, GenAI-infused AIoT workspace, further enhanced by the integration of automation with the Home Assistant project, complete with an AI-powered assistant. This endeavor seeks not only to elevate the workplace atmosphere but also to decrease energy consumption, aligning with Sustainable Development Goals (SDG).
+This project takes off with the Application Engineers at Seeed Studio embarking on a journey to leverage the advanced capabilities of the Jetson Orin AGX. Our mission is to deploy it for the operation of a Local Large Language Model (LLM) embedded with a Langchain agent. The objective is to evolve our office environment into a cutting-edge, GenAI-infused AIoT workspace, further enhanced by the integration of automation with the Home Assistant project. The goal is to establish an open-source framework based on RAG for building a local LLM that interacts with Home Assistant API. This endeavor seeks not only to elevate the workplace atmosphere but also to decrease energy consumption, aligning with Sustainable Development Goals (SDG).
 
 This comprehensive project is divided into several crucial segments, each indispensable for the effective real-world deployment of this groundbreaking upgrade.
 
@@ -16,7 +16,7 @@ Here is the flowchart of the whole system:
 4. Decision Making:
    * If the input requires controlling tools, it goes to through a LangChain process, which decides if an action needs to be taken (like turning on a light).
     For example:
-        User: bla bla
+        User: Hi Javis! 
         Agent: bla bla bla
         **screenshot of the **
    * If no action is needed, it proceeds to generate a response directly.
@@ -29,26 +29,28 @@ Here is the flowchart of the whole system:
 * [Seeed Studio AGX Orin™](https://www.seeedstudio.com/NVIDIArJetson-AGX-Orintm-64GB-Developer-Kit-p-5641.html)
 * [15.6inch Monitor](https://www.seeedstudio.com/15-6-Inch-IPS-Portable-Monitor-p-5757.html)
 * [Home Assistant Green](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html)
-* []()
-* []()
 
-## Step Guide
+## Setup Guide
 
 ### NVIDIA® Riva
 
 The instruction on how to setup could found [here](https://wiki.seeedstudio.com/Local_Voice_Chatbot/)
 
-
 ### LocalLLM
 
-The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/llm)
+The instruction on setup Local LLM and the LangChain agent are listed [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/llm)
+
+Here is an example of the LangChain action:
+
+<p style="text-align: center;">
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/agent_example.png" width="300" align="center">
+</p>
 
 ### Dashboard
 
 <p style="text-align: center;">
     <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard.png" width="300" align="center">
 </p>
-
 
 The instruction on how to setup could found [here](https://github.com/Seeed-Projects/LocalJARVIS/tree/main/Software/node-red)
 
@@ -62,13 +64,13 @@ the instruction on how to setup could found [here]() --comming soon 🚧
 
 ## Contribution 
 
-Join Us in Shaping this LocalJAVIS project! 🌟
+Join Us in Shaping this LocalJARVIS project! 🌟
 
 Hello, Open Source and Local llm Enthusiasts!
 
 We're excited to invite you to contribute to this project, As we navigate through the journey of building something impactful, your expertise, passion, and creativity can make a significant difference.
 
-Why Contribute to LocalJAVIS?
+Why Contribute to LocalJARVIS?
 
 Learn and Grow: Dive deep into [technology stack, e.g., Local LLM, Nvidia Riva, LangChain, Home Assistant, Python, Node-RED,JavaScript, etc.] and best practices in software development. Whether you're a seasoned developer or just starting, there's always something new to learn.
 Community and Collaboration: Join a vibrant community of like-minded individuals. Collaborate, share ideas, and get feedback. It's a great way to network and grow together.
