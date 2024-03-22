@@ -50,7 +50,7 @@ mkdir node-red-static
 **Modify `settings.js` to utilize the new static data folder:**
 
 ```bash
-sed -i "s|//httpStatic: '/home/nol/node-red-static/'|httpStatic: '/home/nvidia/node_red_data/node-red-static/'|g" settings.js
+sed -i "s|//httpStatic: '/home/nol/node-red-static/'|httpStatic: '/data/node-red-static/'|g" settings.js
 ```
 
 ### 3. Install Node-RED Package Dependency 📌
