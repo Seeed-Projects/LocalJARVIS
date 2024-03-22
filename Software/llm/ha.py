@@ -4,16 +4,13 @@ import sys
 
 class HomeAssistant:
 
-    def __init__(self):
+    def __init__(self, ha_access_token, ha_base_url):
 
-        self.access_token = (
-            'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI2MzQ1MDM4ZTk5MmI0NmEzOGJkOGQ1NWY0MjE5NmMxOCI'
-            'sImlhdCI6MTcwNTkwNDM2NCwiZXhwIjoyMDIxMjY0MzY0fQ.nMVjHoQGMhSXJt9guTaQBmQJDVgCWvN6xGqYWETrHcA'
-        )
-        self.base_url = "http://aeassistant.lan:8123/"
+        self.access_token = ha_access_token
+        self.base_url = ha_base_url  # "http://aeassistant.lan:8123/"
 
-        self.entity_ids = {
-            'light': 'switch.living_room_1',
+        self.switch_entity_ids = {
+            'air_conditioner': 'switch.qdhkl_ac_0146_switch_status',
         }
 
     def setup_switch(self, state, _entity_id):
@@ -25,11 +22,19 @@ class HomeAssistant:
         else:
             print("ERROR: Switch state must be 'on' or 'off'.")
             sys.exit()
-        headers = {"Authorization": self.access_token}
+        headers = {"Authorization": 'Bearer ' + self.access_token}
         data = {"entity_id": _entity_id}
 
         response = post(url, headers=headers, json=data)
         return response
+
+    def turn_on_air_conditioner(self, args):
+        self.setup_switch('on', self.switch_entity_ids['air_conditioner'])
+        return 'Frank have turned on the air conditioner for human.'
+
+    def turn_off_air_conditioner(self, args):
+        self.setup_switch('off', self.switch_entity_ids['air_conditioner'])
+        return 'Frank have turned off the air conditioner for human.'
 
 
 if __name__ == '__main__':
