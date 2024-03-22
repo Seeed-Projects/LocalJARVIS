@@ -61,12 +61,13 @@ the instruction on how to setup could found [here]() --comming soon 🚧
 ## To-Do/Wish list 🚧
 
 ### Project To-Do
+
 - [ ]FIX Project README under construction part
 - [ ]Collect Ideas
-
+  
 ### Wish List
 
--- [ ]Implement RAG 
+- [ ]Implement and test RAG 
 
 ## Contribution 
 
