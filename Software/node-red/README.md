@@ -75,11 +75,12 @@ In the search bar please search and install the following packages:
 * node-red-contrib-home-assistant-websocket
 
 <p style="text-align: center;">
-    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard_nodes.png" width="300" align="center">
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/dashboard_nodes.png" align="center" style="width: 20%;height: 20%;">
+    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/home_assistant_ws.png" align="center" style="width: 20%;height: 20%;">
+
 </p>
 
 <p style="text-align: center;">
-    <img src="https://github.com/Seeed-Projects/LocalJARVIS/blob/main/Resource/home_assistant_ws.png" width="300" align="center">
 </p>
 
 ### 4. Import Node-RED Flow
